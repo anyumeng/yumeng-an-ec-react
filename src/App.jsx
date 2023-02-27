@@ -13,6 +13,7 @@ function App() {
   function changeColor() {
     const validColors = new Set(['red', 'green', 'blue']);
     if (validColors.has(color.toLocaleLowerCase())) {
+      setInvalidMessage('');
       setStyle(style => ({
         ...style,
         backgroundColor: color
