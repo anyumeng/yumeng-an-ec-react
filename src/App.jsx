@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <div className="box" style={style}></div>
       <div className="input-button">
-        <input type="text" value={color} id="color" onInput={onColorInput} />
+        <input type="text" value={color} onInput={onColorInput} />
         <button onClick={changeColor}>Change color</button>
       </div>
       <p id="invalid-message">{invalidMessage}</p>
