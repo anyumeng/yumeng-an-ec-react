@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.input-button {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+#invalid-message {
+  font: 25px;
+  color: red;
+}
+
+p {
+  margin-top: 5px;
+}
