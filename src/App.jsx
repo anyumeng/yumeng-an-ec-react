@@ -19,6 +19,10 @@ function App() {
         backgroundColor: color
       }));
     } else {
+        setStyle(style => ({
+          ...style,
+          backgroundColor: 'white'  
+        }))
         setInvalidMessage(color + ' is not a valid color. Please choose green, blue or red.');
     }
   }
